@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@400;500&display=swap');
+
+body {background-color: #fff;
+      font-family: 'Lato', sans-serif;
+      color: #223c24;
+      font-size: 1.3rem;
+      line-height: 1.2rem;
+      max-width: 1000px;
+      align-items: center;}
+
+a {color: #223c24;
+   text-decoration: none;
+   transition: all 0.4s ease-out;}
+
+a:hover {color:#ccb73a;}
+
+button {border: solid 1px #223c24;
+        border-radius: 25px;
+        padding: 5px 10px;
+        outline: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.15);
+        font-family: 'Lato', sans-serif;
+        font-size: 1.3rem;
+        color: #223c24;
+        background: #fff;
+        transition: all 0.4s ease-in;}
+
+button:hover {background: #223c24;
+              color: #fff;}
+
+h1 {font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #e53c09;
+    font-size: 3rem;
+    line-height: 1.75rem;
+    margin-bottom: 8%;}
+
+h2 {font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #eb5524;
+    font-size: 1.75rem;
+    line-height: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%}
+
+h3 {font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 0.5rem;}
+
+img {font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #eb5524;
+    font-size: 1.75rem;
+    line-height: 1rem;
+    max-width: 35%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px #ccb73a, -3px -3px 20px #98c159;
+    border: linear-gradient(145deg, #ccb73a 0%, #98c159 100%) solid 1px;
+    margin-bottom: -5%;
+    }
+
+.list-inline > li {display: inline-block;
+                   padding: 0px 20px;}
+
+.list-inline {list-style: none;
+  padding-left: 0px;}
+
+.container {text-align: center;}
+
+.card {background-color: #fff;
+       background-clip: border-box;
+       border-radius: 0.55rem;
+       margin-top: 11%;
+       margin-left: 10%;
+       margin-right: 10%;
+       margin-bottom: 4%;
+       padding-bottom: 20px;}
+
+.content {position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          max-width: 70%;
+          border-radius: 0.55rem;
+          margin-left: 15%;
+          margin-right: 15%;}
+
+.bg-primary {background-color: #fff !important;}
+
+.shadow-inset {box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.15), inset -3px -3px 7px rgba(0, 0, 0, 0.1) !important;}
+
+.border-light {border-color: #ccb73a !important;}
+
+.p-3 {padding: 1rem !important;}
+
+.rounded {border-radius: 0.55rem !important;}
+
+.py-5 {padding-top: 3rem !important;}
+
+.shadow-soft {box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15), -3px -3px 7px rgba(0, 0, 0, 0.1) !important;}
+
+.icon {width: 200px;
+      box-shadow: none;}
+
+@media (max-width: 960px) {/* For a screen < 960px, this CSS will be read */
+                           .container {width: 700px;}}
+
+@media (max-width: 720px) {/* For a screen < 720px, this CSS will be read */
+                           .container {width: 500px;}}
+@media (max-width: 540px) {/* For a screen < 540px, this CSS will be read */
+                           .container {width: 300px;}}
