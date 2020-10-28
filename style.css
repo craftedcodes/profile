@@ -1,13 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@400;500&display=swap');
 
-body {background-color: #fff;
+body {
+      background-color: #fff;
       font-family: 'Lato', sans-serif;
       color: #223c24;
       font-size: 1.3rem;
       line-height: 1.2rem;
       max-width: 1000px;
-      align-items: center;}
+      align-items: center;
+      }
+
+.container {
+            text-align: center;
+            width: 999px;
+            margin: 0 auto;
+            }
 
 a {color: #223c24;
    text-decoration: none;
@@ -70,8 +78,6 @@ img {font-family: 'Roboto', sans-serif;
 
 .list-inline {list-style: none;
   padding-left: 0px;}
-
-.container {text-align: center;}
 
 .card {background-color: #fff;
        background-clip: border-box;
